@@ -1,0 +1,88 @@
+
+fieldset{
+    flex-grow: 5;
+    padding: 5px;
+    width: 40%;
+    padding-right: 250px;
+}
+
+legend{
+    font-size: 2rem;
+    background-color: var(--title-bg-clr);
+    color: var(--title-clr);
+}
+
+label{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.notUnderline{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.flexbox{
+    width: 90%;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-around;    
+}
+
+
+
+form fieldset div{
+    display: flex;
+    flex-direction: column;
+}
+
+input, select{
+    border: 2px solid rgb(118, 118, 118), rgb(56, 55, 55);
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input[type="submit"]{
+    margin-top: 20px;
+    background-color: var(--title-bg-clr);
+    color: var(--title-clr);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: #49545C;
+}
+
+
+.form form div{
+    display: flex;
+}
+
+.images{
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.images img{
+    width: 50px;
+    aspect-ratio: 1;
+
+}
